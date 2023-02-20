@@ -1,0 +1,52 @@
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+ .playgroundContainer {
+  margin-bottom: var(--ifm-leading);
+}
+
+.playgroundEditor {
+  font: var(--ifm-code-font-size) / var(--ifm-pre-line-height)
+    var(--ifm-font-family-monospace) !important;
+  /*rtl:ignore*/
+  direction: ltr;
+}
+
+.playgroundPreview {
+  padding: 1rem;
+}
+
+.playgroundPreview:last-of-type, .playgroundEditor:last-of-type {
+  border-bottom-left-radius: var(--ifm-global-radius);
+  border-bottom-right-radius: var(--ifm-global-radius);
+}
+
+.wrapper {
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.operate {
+  display: flex;
+  height: 40px;
+  padding: 0 1em;
+  align-items: center;
+  justify-content: flex-end;
+  border-top: 1px dashed var(--ifm-color-emphasis-200);
+}
+
+.operateItem {
+  display: inline-block;
+  height: 18px;
+  line-height: 18px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 16px;
+}
+
+.operateItem:hover {
+  color: #25c2a0;
+}

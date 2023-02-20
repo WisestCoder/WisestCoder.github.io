@@ -1,0 +1,32 @@
+/* stylelint-disable docusaurus/copyright-header */
+
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.bannerContainer {
+  background-image: url(https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*kJM2Q6uPXCAAAAAAAAAAAABkARQnAQ);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 340px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.bannerTitle {
+  font-size: 50px;
+}
+
+.bannerDescription {
+  color: #666666;
+  font-size: 16px;
+}
+
+.bannerButtons {
+  margin-top: 40px;
+}
+
+.bannerButtons button {
+  margin: 0 10px;
+}
